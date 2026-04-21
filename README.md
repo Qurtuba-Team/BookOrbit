@@ -6,6 +6,18 @@ BookOrbit is a student-to-student book lending platform built exclusively for Ma
 
 ---
 
+## Related Repositories
+
+| Repository | Description | Link |
+|---|---|---|
+| 📋 Project Overview | Idea, documentation & planning | *(this repo)* |
+| 🎨 Frontend | React app — UI & user experience | [![Frontend](https://img.shields.io/badge/Repo-Frontend-blue?logo=github)](https://github.com/Qurtuba-Team/BookOrbit-frontend) |
+| ⚙️ Backend | API server & database logic | [![Backend](https://img.shields.io/badge/Repo-Backend-gray?logo=github)](https://github.com/Qurtuba-Team/BookOrbit-backend) |
+
+> The frontend and backend repos each contain their own setup and contribution instructions.
+
+---
+
 ## The Problem
 
 University students buy books, read them once or twice, then leave them collecting dust. At the same time, book prices are rising sharply, making it harder for students to afford what they need. The real frustration? Someone two floors up probably owns the exact book you're looking for — you just have no way of knowing.
