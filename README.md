@@ -97,11 +97,11 @@ BookOrbit takes accountability seriously.
 
 | Name | Role |
 |---|---|
-| [Adham Eltantawi](https://github.com/adhameltantawi) | Team Lead & Frontend |
+| [Adham Eltantawi](https://github.com/adhameltantawi) | Team Lead |
 | [Omar Ashraf](https://github.com/username) | Frontend |
 | [Abdelrahman Nofal](https://github.com/Abdulrhman65) | Frontend |
 | [Eyad Dawood](https://github.com/Eyad-Dawood) | Backend lead |
-| [Abdelrahman Yasser](https://github.com/Abdulrahman-Yasser-dev) | Backend |
+| [Abdelrahman Yasser](https://github.com/Abdulrahman-Yasser-dev) | Frontend lead |
 | [Abdelrahman Mohy](https://github.com/username) | Backend |
 
 
