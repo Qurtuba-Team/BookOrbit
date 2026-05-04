@@ -25,7 +25,7 @@
 
 ## 🎬 Demo
 
-> **📽️ Project Demo Video** → _[https://youtu.be/K944Xgmmw7Y]_
+> **📽️ Project Demo Video** → _[https://youtu.be/Vy8LO9UHjMI]_
 
 ---
 
