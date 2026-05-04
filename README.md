@@ -49,6 +49,17 @@ The platform manages the full lifecycle of a book exchange: from student registr
 
 ---
 
+## 📄 Docs
+
+| Document | Description |
+|:---|:---|
+| [Project Proposal](./Project%20Proposal.pdf) | Original project proposal and scope definition |
+| [Presentation](./presentation.pdf) | Project presentation deck |
+| [Backend README](https://github.com/Qurtuba-Team/BookOrbit-backend#readme) | Full backend architecture, setup, and developer guide |
+| [Frontend README](https://github.com/Qurtuba-Team/BookOrbit-frontend#readme) | Frontend setup and component overview |
+
+---
+
 ## 🔥 The Problem
 
 University students spend significant money on textbooks they use for a single semester, only to have them sit unused afterward. Meanwhile, another student a floor above is searching for the exact same book.
@@ -227,17 +238,6 @@ The entire backend stack is orchestrated with Docker Compose:
 - [ ] Mobile experience via Capacitor (iOS & Android)
 - [ ] Campus map integration for visualizing nearby books
 - [ ] Expansion to other Egyptian universities
-
----
-
-## 📄 Docs
-
-| Document | Description |
-|:---|:---|
-| [Project Proposal](./Project%20Proposal.pdf) | Original project proposal and scope definition |
-| [Presentation](./presentation.pdf) | Project presentation deck |
-| [Backend README](https://github.com/Qurtuba-Team/BookOrbit-backend#readme) | Full backend architecture, setup, and developer guide |
-| [Frontend README](https://github.com/Qurtuba-Team/BookOrbit-frontend#readme) | Frontend setup and component overview |
 
 ---
 
