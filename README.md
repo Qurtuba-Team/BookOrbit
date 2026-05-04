@@ -1,110 +1,267 @@
-# 📚 BookOrbit — University Book Exchange Platform
+<h1 align="center">
+  <br />
+  📚 BookOrbit
+  <br />
+</h1>
 
-> Books keep moving. Knowledge keeps growing.
+<p align="center">
+  <b>A student-to-student book lending ecosystem built for Mansoura University.</b>
+  <br />
+  <i>Books keep moving. Knowledge keeps growing.</i>
+</p>
 
-BookOrbit is a student-to-student book lending platform built exclusively for Mansoura University. Instead of buying books you'll read once, you borrow from a classmate who already has them — and lend yours to someone who needs them next.
+<p align="center">
+  <a href="https://github.com/Qurtuba-Team/BookOrbit-backend">
+    <img src="https://img.shields.io/badge/Backend-ASP.NET%20Core%209-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" />
+  </a>
+  <a href="https://github.com/Qurtuba-Team/BookOrbit-frontend">
+    <img src="https://img.shields.io/badge/Frontend-React%2019-61dafb?style=for-the-badge&logo=react&logoColor=black" />
+  </a>
+  <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/University-Mansoura-blue?style=for-the-badge" />
+</p>
 
 ---
 
-## Related Repositories
+## 🎬 Demo
+
+> **📽️ Project Demo Video** → _[Link coming soon]_
+
+---
+
+## 📖 What is BookOrbit?
+
+BookOrbit is a campus-exclusive book-sharing platform that lets students at Mansoura University **lend and borrow physical books** from one another — for free. Instead of buying a textbook you'll read once or let it collect dust on a shelf, BookOrbit connects you with a classmate who already has it.
+
+The platform manages the full lifecycle of a book exchange: from student registration and book cataloging, to borrow requests, physical handover confirmation, point settlement, and post-return reviews — all within a trusted, university-verified community.
+
+> **The idea is simple: the more you lend, the more you can borrow.**
+
+---
+
+## 🗂️ Repositories
 
 | Repository | Description | Link |
-|---|---|---|
-| 📋 Project Overview | Idea, documentation & planning | *(this repo)* |
-| 🎨 Frontend | React app — UI & user experience | [![Frontend](https://img.shields.io/badge/Repo-Frontend-blue?logo=github)](https://github.com/Qurtuba-Team/BookOrbit-frontend) |
-| ⚙️ Backend | API server & database logic | [![Backend](https://img.shields.io/badge/Repo-Backend-gray?logo=github)](https://github.com/Qurtuba-Team/BookOrbit-backend) |
-
-> The frontend and backend repos each contain their own setup and contribution instructions.
+|:---|:---|:---|
+| 📋 **BookOrbit** | Project overview, documentation & planning | *(this repo)* |
+| ⚙️ **BookOrbit-backend** | ASP.NET Core 9 REST API — Clean Architecture, DDD, CQRS | [![Backend](https://img.shields.io/badge/Repo-Backend-gray?logo=github)](https://github.com/Qurtuba-Team/BookOrbit-backend) |
+| 🎨 **BookOrbit-frontend** | React 19 web app — UI, real-time features, admin panel | [![Frontend](https://img.shields.io/badge/Repo-Frontend-blue?logo=github)](https://github.com/Qurtuba-Team/BookOrbit-frontend) |
 
 ---
 
-## The Problem
+## 🔥 The Problem
 
-University students buy books, read them once or twice, then leave them collecting dust. At the same time, book prices are rising sharply, making it harder for students to afford what they need. The real frustration? Someone two floors up probably owns the exact book you're looking for — you just have no way of knowing.
+University students spend significant money on textbooks they use for a single semester, only to have them sit unused afterward. Meanwhile, another student a floor above is searching for the exact same book.
 
----
-
-## The Solution
-
-BookOrbit turns every student's bookshelf into a shared campus resource. Instead of searching blindly or spending money you don't need to, you open the app and find what you need from people around you.
-
-The idea is simple: **the more you lend, the more you can borrow.**
+- 📈 Textbook prices keep rising
+- 🗄️ Students own books they'll never open again
+- 🔍 There's no organized way to find books within campus
+- 🤝 No trusted system to facilitate exchanges between strangers
 
 ---
 
-## How It Works
+## ✅ The Solution
 
-### 1. Sign Up
-Register using your official Mansoura University email (`@mans.edu.eg`). This keeps the platform trusted and campus-only.
+BookOrbit turns every student's personal bookshelf into a shared campus resource through:
 
-### 2. List Your Books
-Add the books you're willing to lend — set the book condition and how long you're comfortable lending it. Every book you list benefits the whole community.
-
-### 3. Browse
-Explore available books like an online bookstore. Search by title, see condition and duration, and pick what you need.
-
-### 4. Send a Borrow Request
-Found a book? Send a request to the owner. They'll see your profile, rating, and borrowing history before they decide.
-
-### 5. Approval & Contact
-If the owner approves, both parties receive each other's contact info (WhatsApp or Telegram) to coordinate pickup. Nothing is shared before approval.
-
-### 6. Confirm Handover
-Once the book is physically handed over, both sides confirm it in the app. A countdown starts automatically based on the agreed return date.
-
-### 7. Return & Review
-When the book is returned, the owner confirms it and leaves a review — was it returned on time? In good condition? The borrower's reputation on the platform depends on this.
+- **A verified community** — only `@mans.edu.eg` university emails are accepted
+- **A trust-based economy** — a points system that rewards reliable lenders and responsible borrowers
+- **A structured lifecycle** — from request to handover to return, every step is tracked and confirmed
 
 ---
 
-## Points System
+## ⚙️ How It Works
 
-Every student starts with **1 point**, which allows borrowing one book at a time.
+```
+  Register (University Email)
+        │
+        ▼
+  Admin Verification
+        │
+        ▼
+  ┌─────────────────────┐
+  │   List Your Books   │  →  Browse & Borrow
+  └─────────────────────┘
+        │
+  Send Borrow Request
+        │
+        ▼
+  Owner Reviews & Accepts
+        │
+        ▼
+  Contact Info Exchanged
+        │
+        ▼
+  Physical Handover Confirmed
+        │
+        ▼
+  Active Loan (countdown starts)
+        │
+        ▼
+  Book Returned → Review & Points Settled
+```
+
+1. **Register** — Sign up with your official university email (`@mans.edu.eg`).
+2. **List** — Add books you're willing to lend with condition details and duration.
+3. **Browse** — Search the catalog by title, category, or author.
+4. **Request** — Send a borrow request; the owner sees your borrowing history and rating.
+5. **Approve** — On acceptance, both sides receive contact information (WhatsApp / Telegram).
+6. **Confirm Handover** — Both parties confirm the exchange in-app; the countdown begins.
+7. **Return & Review** — Owner confirms return and leaves a review affecting the borrower's reputation.
+
+---
+
+## 🪙 Points Economy
+
+Every student starts with **1 point**, enabling borrowing of one book at a time. Points are the currency of trust on BookOrbit.
 
 | Action | Effect |
-|---|---|
-| Lending a book & receiving a good review | +points |
-| Returning a book on time in good condition | +points |
-| Returning late or with damage | −points |
-| Getting reported and confirmed by admins | −points |
+|:---|:---|
+| Lending a book and receiving a positive review | ➕ Points |
+| Returning a book on time and in good condition | ➕ Points |
+| Returning a book late or with damage | ➖ Points |
+| Confirmed misconduct report by admins | ➖ Points |
 
-More points = more borrowing capacity. This keeps things fair: active, reliable members get more access, and the system rewards contribution over consumption.
-
----
-
-## Trust & Safety
-
-BookOrbit takes accountability seriously.
-
-- **Before borrowing**, users agree to compensation terms covering damage or loss.
-- **After return**, owners can file a report if the book comes back damaged or late.
-- **Admins** review all disputes, validate reports, and adjust points accordingly.
-- The entire platform is **limited to verified university students**, so there's always a real identity behind every transaction.
+More points = more borrowing capacity. The system rewards contribution over pure consumption.
 
 ---
 
-## Future Plans
+## 🏗️ System Architecture
 
-- In-app chat between borrowers and lenders
-- Designated pickup spots across campus
-- Book recommendations based on your borrowing history
-- Penalty escalation system for repeated violations
-- Expansion to other universities
+BookOrbit is split into two independent services connected via a REST API.
+
+### High-Level Overview
+
+```
+┌─────────────────────────────────────────────────────┐
+│                  React 19 Frontend                  │
+│   (SPA · React Router 7 · Context API · SignalR)    │
+└────────────────────┬────────────────────────────────┘
+                     │  HTTPS / REST + WebSocket
+┌────────────────────▼────────────────────────────────┐
+│            ASP.NET Core 9 REST API                  │
+│   (CQRS · Clean Architecture · DDD · JWT Auth)      │
+├──────────────────────────────┬──────────────────────┤
+│        SQL Server 2022       │  Hybrid Cache         │
+│   (EF Core · Identity)       │  (In-Memory + Redis)  │
+└──────────────────────────────┴──────────────────────┘
+```
+
+### Backend — Clean Architecture
+
+The backend enforces strict dependency inversion across four layered projects:
+
+| Layer | Project | Responsibility |
+|:---|:---|:---|
+| 🟣 Domain | `BookOrbit.Domain` | Aggregates, Value Objects, Domain Events, Result pattern |
+| 🔵 Application | `BookOrbit.Application` | CQRS Handlers, FluentValidation, Pipeline Behaviours |
+| 🟠 Infrastructure | `BookOrbit.Infrastructure` | EF Core, Identity, SMTP, Caching, OpenTelemetry |
+| 🟢 Presentation | `BookOrbit.Api` | REST Controllers, Middleware, OpenAPI, Rate Limiting |
+
+Key domain aggregates: `Student`, `Book`, `BookCopy`, `LendingListRecord`, `BorrowingRequest`, `BorrowingTransaction`, `PointTransaction`.
+
+### Frontend — React SPA
+
+A modern single-page application with role-based views for students and administrators.
+
+| Layer | Technology |
+|:---|:---|
+| Framework | React 19, React Router 7 |
+| Styling | Tailwind CSS, Framer Motion |
+| State Management | Context API, React Hook Form |
+| Real-time | SignalR (WebSocket) |
+| HTTP | Axios, JWT Auth (Access + Refresh tokens) |
 
 ---
 
-## Team
+## 🛡️ Key Technical Features
 
-| Name | Role |
-|---|---|
-| [Adham Eltantawi](https://github.com/adhameltantawi) | Team Lead |
-| [Omar Ashraf](https://github.com/username) | Frontend |
-| [Abdelrahman Nofal](https://github.com/Abdulrhman65) | Frontend |
-| [Eyad Dawood](https://github.com/Eyad-Dawood) | Backend lead |
-| [Abdelrahman Yasser](https://github.com/Abdulrahman-Yasser-dev) | Frontend lead |
-| [Abdelrahman Mohy](https://github.com/username) | Backend |
-
+| Feature | Detail |
+|:---|:---|
+| **Authentication** | JWT Access Tokens (15 min) + Refresh Token Rotation, HMAC-SHA256 |
+| **Authorization** | 16 named policies — role-based, state-based, ownership-based, relationship-based |
+| **CQRS** | Every use case as a Command or Query dispatched via MediatR |
+| **Observability** | Serilog → Seq · OpenTelemetry → Jaeger · Prometheus → Grafana |
+| **Caching** | HybridCache (in-memory + remote) + Output Caching + tag-based invalidation |
+| **Rate Limiting** | Three sliding-window policies protecting normal, sensitive, and email endpoints |
+| **Error Handling** | `Result<T>` monad + RFC 7807 ProblemDetails — no exception-based flow |
+| **Data Safety** | PII masking for logs and API responses (emails, phone numbers, Telegram IDs) |
+| **Testing** | Domain unit tests, application unit tests, full subcutaneous integration tests |
+| **Containerization** | Docker Compose — 6 services (API, SQL Server, Seq, Prometheus, Grafana, Jaeger) |
+| **Real-time UI** | SignalR integration for live notifications |
+| **Book Covers** | Automated cover retrieval from Open Library (primary) and Google Books (fallback) |
+| **AI Chatbot** | Gemini Pro-powered chatbot for book recommendations and user assistance |
 
 ---
 
-*BookOrbit is currently scoped to Mansoura University. Built by students, for students.*
+## 🔒 Trust & Safety
+
+- Students register only with a verified `@mans.edu.eg` university email.
+- Before borrowing, users accept compensation terms covering potential damage or loss.
+- Owners can file dispute reports after a return; admins review and adjust points accordingly.
+- Real identities are always behind every transaction — no anonymous actors.
+
+---
+
+## 📦 Infrastructure (Docker Compose)
+
+The entire backend stack is orchestrated with Docker Compose:
+
+| Service | Port | Purpose |
+|:---|:---|:---|
+| BookOrbit API | `7240` | REST API |
+| SQL Server 2022 | `1433` | Primary database |
+| Seq | `8081` | Structured log viewer |
+| Jaeger | `16686` | Distributed tracing UI |
+| Prometheus | `9090` | Metrics query engine |
+| Grafana | `3000` | Dashboards (metrics + traces) |
+
+---
+
+## 🚀 Future Roadmap
+
+- [ ] In-app chat between borrowers and lenders
+- [ ] Designated pickup spots mapped across campus
+- [ ] Push notifications for request status changes
+- [ ] Penalty escalation system for repeated violations
+- [ ] Mobile experience via Capacitor (iOS & Android)
+- [ ] Campus map integration for visualizing nearby books
+- [ ] Expansion to other Egyptian universities
+
+---
+
+## 👥 Team
+
+Built by the **Qurtuba Team** — CS students at Mansoura University.
+
+| Name | Role | GitHub |
+|:---|:---|:---|
+| **Adham Eltantawi** | Team Lead | [@adhameltantawi](https://github.com/adhameltantawi) |
+| **Eyad Dawood** | Backend Lead | [@Eyad-Dawood](https://github.com/Eyad-Dawood) |
+| **Abdelrahman Yasser** | Frontend Lead | [@Abdulrahman-Yasser-dev](https://github.com/Abdulrahman-Yasser-dev) |
+| **Omar Ashraf** | Frontend Developer | [@OmarAshraf](https://github.com/username) |
+| **Abdelrahman Nofal** | Frontend Developer | [@Abdulrhman65](https://github.com/Abdulrhman65) |
+| **Abdelrahman Mohy** | Backend Developer | [@AbdelrahmanMohy](https://github.com/username) |
+
+---
+
+## 📄 Docs
+
+| Document | Description |
+|:---|:---|
+| [Project Proposal](./Project%20Proposal.pdf) | Original project proposal and scope definition |
+| [Presentation](./presentation.pdf) | Project presentation deck |
+| [Backend README](https://github.com/Qurtuba-Team/BookOrbit-backend#readme) | Full backend architecture, setup, and developer guide |
+| [Frontend README](https://github.com/Qurtuba-Team/BookOrbit-frontend#readme) | Frontend setup and component overview |
+
+---
+
+## 📜 License
+
+MIT License — © 2026 Qurtuba Team
+
+---
+
+<p align="center">
+  <i>Built by students, for students — Mansoura University 🎓</i>
+</p>
