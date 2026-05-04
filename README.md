@@ -25,7 +25,7 @@
 
 ## 🎬 Demo
 
-> **📽️ Project Demo Video** → _[Link coming soon]_
+> **📽️ Project Demo Video** → _[https://youtu.be/K944Xgmmw7Y]_
 
 ---
 
@@ -55,8 +55,8 @@ The platform manages the full lifecycle of a book exchange: from student registr
 |:---|:---|
 | [Project Proposal](./Project%20Proposal.pdf) | Original project proposal and scope definition |
 | [Presentation](./presentation.pdf) | Project presentation deck |
-| [Backend README](https://github.com/Qurtuba-Team/BookOrbit-backend#readme) | Full backend architecture, setup, and developer guide |
-| [Frontend README](https://github.com/Qurtuba-Team/BookOrbit-frontend#readme) | Frontend setup and component overview |
+| [Backend ](https://github.com/Qurtuba-Team/BookOrbit-backend#readme) | Full backend architecture, setup, and developer guide |
+| [Frontend ](https://github.com/Qurtuba-Team/BookOrbit-frontend#readme) | Frontend setup and component overview |
 
 ---
 
@@ -247,12 +247,12 @@ Built by the **Qurtuba Team** — students at Mansoura University.
 
 | Name | Role | GitHub | LinkedIn |
 |:---|:---|:---|:---|
-| **Adham Eltantawi** | Team Lead | [@adhameltantawi](https://github.com/adhameltantawi) | [LinkedIn](#) |
-| **Eyad Dawood** | Backend Lead | [@Eyad-Dawood](https://github.com/Eyad-Dawood) | [LinkedIn](#) |
-| **Abdelrahman Yasser** | Frontend Lead | [@Abdulrahman-Yasser-dev](https://github.com/Abdulrahman-Yasser-dev) | [LinkedIn](#) |
-| **Omar Ashraf** | Frontend Developer | [@OmarAshraf](https://github.com/username) | [LinkedIn](#) |
+| **Adham Eltantawi** | Team Lead | [@adhameltantawi](https://github.com/adhameltantawi) | [LinkedIn](https://www.linkedin.com/in/adhameltantawi/) |
+| **Eyad Dawood** | Backend Lead | [@Eyad-Dawood](https://github.com/Eyad-Dawood) | [LinkedIn](https://www.linkedin.com/in/eyad-dawood-845719388/) |
+| **Abdelrahman Mohy** | Backend Developer | [@AbdelrahmanMohy](https://github.com/AbdelrahmanMohye0) | [LinkedIn](https://www.linkedin.com/in/abdelrahmanmohye/) |
+| **Abdelrahman Yasser** | Frontend Lead | [@Abdulrahman-Yasser-dev](https://github.com/Abdulrahman-Yasser-dev) | [LinkedIn](https://www.linkedin.com/in/abdulrahman-yasser-dev/) |
+| **Omar Ashraf** | Frontend Developer | [@OmarAshraf](https://github.com/Omar-azmazy) | [LinkedIn](#) |
 | **Abdelrahman Nofal** | Frontend Developer | [@Abdulrhman65](https://github.com/Abdulrhman65) | [LinkedIn](#) |
-| **Abdelrahman Mohy** | Backend Developer | [@AbdelrahmanMohy](https://github.com/username) | [LinkedIn](#) |
 
 ---
 
