@@ -251,7 +251,7 @@ Built by the **Qurtuba Team** — students at Mansoura University.
 | **Eyad Dawood** | Backend Lead | [@Eyad-Dawood](https://github.com/Eyad-Dawood) | [LinkedIn](https://www.linkedin.com/in/eyad-dawood-845719388/) |
 | **Abdelrahman Mohy** | Backend Developer | [@AbdelrahmanMohye0](https://github.com/AbdelrahmanMohye0) | [LinkedIn](https://www.linkedin.com/in/abdelrahmanmohye/) |
 | **Abdelrahman Yasser** | Frontend Lead | [@Abdulrahman-Yasser-dev](https://github.com/Abdulrahman-Yasser-dev) | [LinkedIn](https://www.linkedin.com/in/abdulrahman-yasser-dev/) |
-| **Omar Ashraf** | Frontend Developer | [@Omar-azmazy](https://github.com/Omar-azmazy) | [LinkedIn](#) |
+| **Omar Ashraf** | Frontend Developer | [@Omar-azmazy](https://github.com/Omar-azmazy) | [LinkedIn](https://www.linkedin.com/in/omarashraf17/) |
 | **Abdelrahman Nofal** | Frontend Developer | [@Abdulrhman65](https://github.com/Abdulrhman65) | [LinkedIn](https://www.linkedin.com/in/abdulrhman-nofal-113b96387/) |
 
 ---
