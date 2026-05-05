@@ -229,6 +229,19 @@ The entire backend stack is orchestrated with Docker Compose:
 
 ---
 
+## 🌿 Features in Progress (Branch-Only)
+
+The following advanced features were **fully implemented in dedicated backend branches** but were **not merged into `main`** due to time constraints and the project deadline. They are complete and ready for integration in a future release.
+
+| Feature | Description |
+|:---|:---|
+| 🤖 **Recommendation System** | Personalized book recommendations based on borrowing history and student preferences. |
+| 🖼️ **AI-Optimized Book Cover Images** | AI pipeline that enhances and corrects book cover images captured by users' cameras. |
+| 🔍 **AI-Powered Search** | Semantic, fuzzy search powered by AI — users no longer need to know the exact book title or author name. |
+| 💬 **AI Chatbot Integration** | Conversational chatbot to assist users with book discovery, borrowing guidance, and platform navigation. |
+
+---
+
 ## 🚀 Future Roadmap
 
 - [ ] In-app chat between borrowers and lenders
