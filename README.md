@@ -47,7 +47,7 @@ The platform manages the full lifecycle of a book exchange: from student registr
 | ⚙️ **BookOrbit-backend** | ASP.NET Core 9 REST API — Clean Architecture, DDD, CQRS | [![Backend](https://img.shields.io/badge/Repo-Backend-gray?logo=github)](https://github.com/Qurtuba-Team/BookOrbit-backend) |
 | 🎨 **BookOrbit-frontend** | React 19 web app — UI, real-time features, admin panel | [![Frontend](https://img.shields.io/badge/Repo-Frontend-blue?logo=github)](https://github.com/Qurtuba-Team/BookOrbit-frontend) |
 
----
+--- 
 
 ## 📄 Docs
 
