@@ -183,6 +183,16 @@ A modern single-page application with role-based views for students and administ
 | Real-time | SignalR (WebSocket) |
 | HTTP | Axios, JWT Auth (Access + Refresh tokens) |
 
+### 📱 Cross-Platform
+
+BookOrbit is designed to run everywhere — the **web app is the primary platform**, with native-feel experiences on both desktop and mobile:
+
+| Platform | Technology | Status |
+|:---|:---|:---|
+| 🌐 **Web** | React 19 SPA | ✅ Primary platform |
+| 🖥️ **Desktop** | Electron (wraps the web app) | ✅ Available |
+| 📱 **Mobile** | Capacitor (iOS & Android) | ✅ Available |
+
 ---
 
 ## 🛡️ Key Technical Features
@@ -239,18 +249,7 @@ The following advanced features were **fully implemented in dedicated backend br
 | 🖼️ **AI-Optimized Book Cover Images** | AI pipeline that enhances and corrects book cover images captured by users' cameras. |
 | 🔍 **AI-Powered Search** | Semantic, fuzzy search powered by AI — users no longer need to know the exact book title or author name. |
 | 💬 **AI Chatbot Integration** | Conversational chatbot to assist users with book discovery, borrowing guidance, and platform navigation. |
-
----
-
-## 🚀 Future Roadmap
-
-- [ ] In-app chat between borrowers and lenders
-- [ ] Designated pickup spots mapped across campus
-- [ ] Push notifications for request status changes
-- [ ] Penalty escalation system for repeated violations
-- [ ] Mobile experience via Capacitor (iOS & Android)
-- [ ] Campus map integration for visualizing nearby books
-- [ ] Expansion to other Egyptian universities
+| 🔔 **Smart Notifications** | Context-aware push notifications that alert users about borrow requests, approvals, due dates, and overdue returns — across web, desktop, and mobile. |
 
 ---
 
