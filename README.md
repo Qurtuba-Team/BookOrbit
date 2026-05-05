@@ -249,7 +249,6 @@ The following advanced features were **fully implemented in dedicated backend br
 | 🖼️ **AI-Optimized Book Cover Images** | AI pipeline that enhances and corrects book cover images captured by users' cameras. |
 | 🔍 **AI-Powered Search** | Semantic, fuzzy search powered by AI — users no longer need to know the exact book title or author name. |
 | 💬 **AI Chatbot Integration** | Conversational chatbot to assist users with book discovery, borrowing guidance, and platform navigation. |
-| 🔔 **Smart Notifications** | Context-aware push notifications that alert users about borrow requests, approvals, due dates, and overdue returns — across web, desktop, and mobile. |
 
 ---
 
