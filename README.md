@@ -44,7 +44,7 @@ The platform manages the full lifecycle of a book exchange: from student registr
 | Repository | Description | Link |
 |:---|:---|:---|
 | 📋 **BookOrbit** | Project overview, documentation & planning | *(this repo)* |
-| ⚙️ **BookOrbit-backend** | ASP.NET Core 9 REST API — Clean Architecture, DDD, CQRS | [![Backend](https://img.shields.io/badge/Repo-Backend-gray?logo=github)](https://github.com/Qurtuba-Team/BookOrbit-backend) |
+| ⚙️ **BookOrbit-backend** | ASP.NET Core 9 REST API — Clean Architecture, DDD, CQRS | [![Backend](https://img.shields.io/badge/Repo-Backend-green?logo=github)](https://github.com/Qurtuba-Team/BookOrbit-backend) |
 | 🎨 **BookOrbit-frontend** | React 19 web app — UI, real-time features, admin panel | [![Frontend](https://img.shields.io/badge/Repo-Frontend-blue?logo=github)](https://github.com/Qurtuba-Team/BookOrbit-frontend) |
 
 --- 
@@ -210,6 +210,7 @@ BookOrbit is designed to run everywhere — the **web app is the primary platfor
 | **Testing** | Domain unit tests, application unit tests, full subcutaneous integration tests |
 | **Containerization** | Docker Compose — 6 services (API, SQL Server, Seq, Prometheus, Grafana, Jaeger) |
 | **Real-time UI** | SignalR integration for live notifications |
+| **Smart Notifications** | Context-aware alerts for borrow requests, approvals, due dates, and overdue returns — delivered across web, desktop, and mobile. |
 | **Book Covers** | Automated cover retrieval from Open Library (primary) and Google Books (fallback) |
 | **AI Chatbot** | Gemini Pro-powered chatbot for book recommendations and user assistance |
 
