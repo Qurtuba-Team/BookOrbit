@@ -29,6 +29,13 @@
 
 ---
 
+## ⏬ Download Guid
+
+> **📽️ How To Download Video** → _[https://youtu.be/0H5k4S97i6U]_
+
+---
+
+
 ## 📖 What is BookOrbit?
 
 BookOrbit is a campus-exclusive book-sharing platform that lets students at Mansoura University **lend and borrow physical books** from one another — for free. Instead of buying a textbook you'll read once or let it collect dust on a shelf, BookOrbit connects you with a classmate who already has it.
